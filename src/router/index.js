@@ -20,9 +20,9 @@ const router = createRouter({
       component: () => import('@/views/CalculatorView.vue')
     },
     {
-      path: '/day1',
-      name: 'day1',
-      component: () => import('@/views/Day1.vue')
+      path: '/day2',
+      name: 'day2',
+      component: () => import('@/views/Day2.vue')
     },
   ]
 })
